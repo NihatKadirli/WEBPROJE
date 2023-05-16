@@ -26,15 +26,6 @@
 
 
 
-<div id="main">
-    <h1>Basit bir login</h1>
-    <form method="POST">
-        Kullanıcı Adı <input type="text" name="username" class="text" required>
-        Şifre <input type="password" name="password" class="text" required>
-        <input type="submit" name="submit" id="sub">
-    </form>
-
-</div>
     
 
 </html>
