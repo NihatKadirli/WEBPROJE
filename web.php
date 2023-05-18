@@ -15,13 +15,13 @@
 
     <form action="web.php" method="post">
       <label for="username" style="font-size: 20px;">Kullanıcı Adı:</label>
-      <input type="text" id="username" name="username"><br><br>
+      <input type="text" id="username" name="username"required><br><br>
       <label for="password" style="font-size: 20px;">Şifre:</label>
       <input type="password" id="password" name="password"><br><br>
       <input type="submit" value="Giriş Yap">
 
     </form>
-    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="login.css">
   </body>
 
 
@@ -32,17 +32,18 @@
 
 
 <?php
-if(isset($_POST['submit'])){
-    $un=$_POST['username'];
-    $pw=$_POST['password'];
+if(isset($_POST['username']) && isset($_POST['password'])){
+  $username = $_POST['username'];
+  $password = $_POST['password']; 
 
-       if($un=='username'&& $pw=='password'){
+       if($username=='b221210554@sakarya.edu.tr' && $password=="b221210554" ){
        header("location:anasayfa.html" );
           exit();
       }
       
       else
-      echo "YALNIŞ KULLANICI ADI VE ŞİFRE";
+      echo 
+      "<h1 st>YALNIŞ KULLANICI ADI VE ŞİFRE,LÜTFEN TEKRAR GİRİNİZ:</h1>";
 
 
 }
