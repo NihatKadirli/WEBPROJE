@@ -795,7 +795,7 @@ p{
 }
 @keyframes text_reveal_name{
     100%{
-        color: crimson;
+        color: rgb(249, 100, 0);
         font-weight: 500;
     }
 }
@@ -812,59 +812,47 @@ p{
     }
 
    
-    #hero h1{
+    #baku h1{
         font-size: 7rem;
     }
     
 
-    /* Services Section*/
-    #services .service-bottom .service-item{
+    /* memleket Section*/
+    #memleket .memleket-bottom .memleket-item{
         flex-basis: 45%;
         margin: 2.5%;
     }
-    /* End Services Section*/
+    /* End memleket Section*/
 
-    /* Project */
-    #projects .project-item{
-        flex-direction: row;
-    }
-    #projects .project-item:nth-child(even){
-        flex-direction: row-reverse;
-    }
-    #projects .project-item{
-        height: 400px;
-        margin: 0;
-        width: 100%;
-        border-radius: 0;
-    }
-    #projects .all-projects .project-info{
-        height: 100%;
-    }
-    #projects .all-projects .project-img{
-        height: 100%;
-    }
-    /* End Project */
+
+
+
+
+
+
+
+
     /* About */
-    #about .about{
+    #kendim .kendim{
         flex-direction: row;
     }
-    #about .col-left{
+    #kendim .col-left{
         width: 600px;
         height: 400px;
         padding-left: 60px;
     }
-    #about .about .col-left .about-img::after{
+    #kendim .kendim .col-left .kendim-img::after{
         left: -45px;
         top: 34px;
         height: 98%;
         width: 98%;
         border: 10px solid crimson;
     }
-    #about .col-right{
+    #kendim .col-right{
         text-align: left;
         padding: 30px;
     }
-    #about .col-right h1{
+    #kendim .col-right h1{
         text-align: left;
     }
     /* End About */
